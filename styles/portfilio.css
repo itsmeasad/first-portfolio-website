@@ -12,8 +12,9 @@
     font-size:45px;
 }
 .header{
-    background-image: url('../images/developer.png')
-    background-re
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 
 }
 .text-primary{
@@ -67,9 +68,13 @@ nav{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 230px;
+    margin: 0 35px 200px;
 }
 .banner-content{
    max-width: 580px; 
+
+}
+.banner-profile{
+    width: 580px;
 
 }
